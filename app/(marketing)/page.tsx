@@ -8,6 +8,14 @@ export default function MarketingPage() {
           <Medal className="h-6 w-6 mr-2" />
           No.1 Task Management
         </div>
+
+        <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
+          Taskify helps team move
+        </h1>
+
+        <div className="text-3xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-pink-600 px-4 p-2 pb-4 w-fit">
+          work forward.
+        </div>
       </div>
     </main>
   );
