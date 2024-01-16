@@ -1,4 +1,6 @@
+import { Button } from "@frello/components/ui/button";
 import { Medal } from "lucide-react";
+import Link from "next/link";
 
 export default function MarketingPage() {
   return (
@@ -13,7 +15,7 @@ export default function MarketingPage() {
           Frello helps team move
         </h1>
 
-        <div className="text-3xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-pink-600 px-4 p-2 pb-4 w-fit">
+        <div className="text-3xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-pink-600 px-4 pb-4 w-fit">
           work forward.
         </div>
 
@@ -23,6 +25,10 @@ export default function MarketingPage() {
           accomplish it all with Frello.
         </div>
       </div>
+
+      <Button className="mt-6" size={"lg"} asChild>
+        <Link href={"/sign-up"}>Get Frello for free</Link>
+      </Button>
     </main>
   );
 }
