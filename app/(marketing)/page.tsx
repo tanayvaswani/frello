@@ -49,7 +49,7 @@ export default function MarketingPage() {
       </div>
 
       <Button className="mt-6" size={"lg"} asChild>
-        <Link href={"/sign-up"}>Get Frello for free</Link>
+        <Link href={"/sign-up"}>Get frello for free</Link>
       </Button>
     </main>
   );
