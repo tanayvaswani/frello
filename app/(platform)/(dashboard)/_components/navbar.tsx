@@ -1,4 +1,4 @@
-import { OrganizationSwitcher } from "@clerk/nextjs";
+import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import Logo from "@frello/components/logo";
 import { Button } from "@frello/components/ui/button";
 import { Plus } from "lucide-react";
@@ -36,6 +36,17 @@ const Navbar = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+              },
+            },
+          }}
+        />
+        <UserButton
+          afterSignOutUrl="/"
+          appearance={{
+            elements: {
+              avatarBox: {
+                height: 30,
+                width: 30,
               },
             },
           }}
