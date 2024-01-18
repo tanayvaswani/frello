@@ -1,7 +1,7 @@
 const OragnizationIdPage = () => {
     return ( 
         <div>
-            Organization Id Page
+            Organization Page
         </div>
      );
 }
